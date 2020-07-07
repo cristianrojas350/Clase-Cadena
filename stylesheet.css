@@ -1,0 +1,126 @@
+.color{
+    background-color: white !important;
+}
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+ .rounded-circle hover {filter: grayscale(80%);}
+ /* redes*/
+ .sticky-container{
+  padding:0px;
+  margin:0px;
+  position:fixed;
+  right:-130px;
+  top:230px;
+  width:210px;
+  z-index: 1100;
+}
+.sticky li{
+  list-style-type:none;
+  background-color:#fff;
+  color:#efefef;
+  height:43px;
+  padding:0px;
+  margin:0px 0px 1px 0px;
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+  cursor:pointer;
+}
+.sticky li:hover{
+  margin-left:-115px;
+}
+.sticky li img{
+  float:left;
+  margin:5px 4px;
+  margin-right:5px;
+}
+.sticky li p{
+  padding-top:5px;
+  margin:0px;
+  line-height:16px;
+  font-size:11px;
+}
+.sticky li p a{
+  text-decoration:none;
+  color:#2C3539;
+}
+.sticky li p a:hover{
+  text-decoration:underline;
+}
+
+ 
+ 
+  .carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+ 
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+
+  
+  @media (min-width: 40em) {
+  
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
